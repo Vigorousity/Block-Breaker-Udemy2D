@@ -10,11 +10,6 @@ public class Paddle : MonoBehaviour
     [SerializeField] float worldUnits = 16f;
     [SerializeField] float paddleYPos = 0.5f;
     [SerializeField] float minX = 1f, maxX = 15f;
-
-    void Start()
-    {
-        
-    }
     
     void Update()
     {

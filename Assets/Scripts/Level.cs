@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
+    // Parameters
     int numBlocks;
-    [SerializeField] Loader loader;
+    
+    // Cached References
+    Loader loader;
+
+    private void Start()
+    {
+        loader = FindObjectOfType<Loader>();
+    }
 
     public void AddBlock()
     {

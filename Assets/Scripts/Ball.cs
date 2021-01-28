@@ -10,8 +10,6 @@ public class Ball : MonoBehaviour
     [SerializeField] float launchSpeed = 15f;
     [Tooltip("World units divided by 2")]
     [SerializeField] float halfWorldUnits = 8f;
-    
-    //[SerializeField] AudioClip[] ballSounds;
 
     // State
     Vector2 paddleToBallVector;
