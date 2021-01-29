@@ -55,4 +55,9 @@ public class GameState : MonoBehaviour
     {
         scoreLabel.text = currentScore.ToString();
     }
+
+    public void ResetGameState()
+    {
+        Destroy(gameObject);
+    }
 }

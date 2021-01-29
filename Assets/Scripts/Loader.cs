@@ -8,6 +8,7 @@ public class Loader : MonoBehaviour
 {
     public void LoadMainMenu()
     {
+        FindObjectOfType<GameState>().ResetGameState();
         SceneManager.LoadScene(0);
     }
 
